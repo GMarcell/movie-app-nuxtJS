@@ -64,7 +64,6 @@ export default {
         async getSingleMovie() {
             const data = axios.get(`https://api.themoviedb.org/3/movie/${this.$route.params.movieid}?api_key=7a0eb680118075f2cea9829444c0dfaa&language=en-US`);
             const result = await data;
-            console.log(result.data)
             this.movie = result.data;
         },
     },
