@@ -10,7 +10,7 @@
                     <span>
                         Now
                     </span>
-                    Streaming
+                     Streaming
                 </h1>
                 <a href="#movie-grid" class="button">View Movies</a>
             </div>
